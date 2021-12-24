@@ -7,8 +7,8 @@ from pathlib import Path
 from telethon import events
 
 from pymongo import MongoClient
-from SkyzuRobot import MONGO_DB_URI
-from SkyzuRobot import telethn
+from OkaeriRobot import MONGO_DB_URI
+from OkaeriRobot import telethn
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
@@ -146,7 +146,7 @@ def bot(**args):
     return decorator
 
 
-def SkyzuRobot(**args):
+def OkaeriRobot(**args):
     pattern = args.get("pattern", None)
     disable_edited = args.get("disable_edited", False)
     ignore_unsafe = args.get("ignore_unsafe", False)
