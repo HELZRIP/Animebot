@@ -14,4 +14,4 @@ RUN pip3 install wheel
 RUN pip3 install --no-cache-dir -U -r requirements.txt
 
 COPY . .
-CMD ["python3.9", "-m", "OkaeriRobot"]
+CMD ["python3.9", "-m", "SkyzuRobot"]
