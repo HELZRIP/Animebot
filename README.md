@@ -25,3 +25,6 @@
 This Bot is Created by Okaeri-Project, If your kanging this without fork at least give a credit to get a smile of my hard work. 
 - OkaeriRobot
 ```
+
+## Credits
+-[Skyzu](https://github.com/Skyzu/SkyzuRobot)
