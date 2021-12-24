@@ -1,7 +1,7 @@
 FROM debian:11
 FROM python:3.9.7-slim-buster
 
-WORKDIR /OkaeriRobot/
+WORKDIR /SkyzuRobot/
 
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get -y install git
@@ -14,4 +14,4 @@ RUN pip3 install wheel
 RUN pip3 install --no-cache-dir -U -r requirements.txt
 
 COPY . .
-CMD ["python3.9", "-m", "OkaeriRobot"]
+CMD ["python3.9", "-m", "SkyzuRobot"]
