@@ -81,9 +81,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {} !*
+*Halo Tod {} !*
 ────────────────────────
-✪ I'm an anime theme bot designed to help manage your telegram group with a lot features.
+✪ I'm an Bot With Anime Theme.
 ✪ Maintained by @zenfrans ✨
 ────────────────────────
 Hit the /help to see available command.
@@ -98,7 +98,9 @@ buttons = [
         InlineKeyboardButton(text="ᴛʀʏ ɪɴʟɪɴᴇ​", switch_inline_query_current_chat=""),
     ],
     [
-        InlineKeyboardButton(text="update​", url=f"https://t.me/{UPDATE_CHAT}"),
+        InlineKeyboardButton(
+            text="Github own​", url="https://github.com/Wahyu213"
+        ),
         InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
@@ -112,7 +114,7 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-EMI_IMG = "https://telegra.ph/file/91eef6f6dc68d2d5440bd.jpg"
+EMI_IMG = "https://telegra.ph/file/56811b69cbcece20bbebf.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @zenfrans \
@@ -369,7 +371,7 @@ def Skyzu_about_callback(update, context):
     query = update.callback_query
     if query.data == "Skyzu_":
         query.message.edit_text(
-            text="๏ I'm *Okaeri*, a powerful group management bot With Anime Theme to help you manage your group easily."
+            text="๏ I'm *Okaeri*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -458,7 +460,7 @@ def Skyzu_about_callback(update, context):
     elif query.data == "Skyzu_support":
         query.message.edit_text(
             text=f"*๏ {dispatcher.bot.first_name} support chats*"
-            "\nJoin My Support Group/Channel for see or report a problem on zen.",
+            "\nJoin My Support Group/Channel for see or report a problem on Okaeri.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -477,7 +479,7 @@ def Skyzu_about_callback(update, context):
 
     elif query.data == "Skyzu_credit":
         query.message.edit_text(
-            text=f"<b>๏ Credis for Zen</b>\n"
+            text=f"<b>๏ Credis for Okaeri</b>\n"
             f"\nHere Developers Making The OkaeriRobot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
