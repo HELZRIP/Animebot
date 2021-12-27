@@ -9,7 +9,7 @@ from SkyzuRobot.events import register
 from SkyzuRobot import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/91eef6f6dc68d2d5440bd.jpg"
+PHOTO = "https://telegra.ph/file/fcc9ededec7813af5c3ec.jpg"
 
 
 @register(pattern=("/alive"))
