@@ -289,5 +289,5 @@ __help__ = """
 ❂ /imdb <Movie name>*:* Get full info about a movie with imdb.com
 ❂ Skyzu <query>*:* Skyzu answers the query
 
-  💡Ex: `Skyzu where is Japan?`
+  💡Ex: `Okaeri where is Japan?`
 """
