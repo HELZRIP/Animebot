@@ -99,7 +99,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​", url="https://github.com/Wahyu213/OkaeriRobot"
+            text="update​", url="https://t.me/{UPDATE_CHAT}"),
         ),
         InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
@@ -378,7 +378,7 @@ def Skyzu_about_callback(update, context):
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_Skyzu's licensed under the GNU General Public License v3.0_"
+            "\n\n_Okaeri's licensed under the GNU General Public License v3.0_"
             "\n\n Click on button bellow to get basic help for OkaeriRobot.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
