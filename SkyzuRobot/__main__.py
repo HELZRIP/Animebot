@@ -98,9 +98,7 @@ buttons = [
         InlineKeyboardButton(text="ᴛʀʏ ɪɴʟɪɴᴇ​", switch_inline_query_current_chat=""),
     ],
     [
-        InlineKeyboardButton(
-            text="update​", url="https://t.me/{UPDATE_CHAT}"),
-        ),
+        InlineKeyboardButton(text="update​", url=f"https://t.me/{UPDATE_CHAT}"),
         InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
