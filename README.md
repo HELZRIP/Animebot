@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/91eef6f6dc68d2d5440bd.jpg">
+  <img src="https://telegra.ph/file/a6627fbd2827ff3be8f92.jpg">
 </p>
 
 <h4><p align="center"> OKAERI ROBOT </p></h4>
