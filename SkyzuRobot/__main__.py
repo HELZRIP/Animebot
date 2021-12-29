@@ -81,12 +81,12 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Halo Tod {} !*
+*Halo{} !*
 ────────────────────────
-✪ I'm an Bot With Anime Theme.
-✪ Maintained by @zenfrans ✨
+✪I'm Anime Theme group management bot
+✪ Maintained by @zenfrans 
 ────────────────────────
-Hit the /help to see available command.
+➤ Find the list of available commands with /help.
 """
 
 buttons = [
@@ -98,11 +98,8 @@ buttons = [
         InlineKeyboardButton(text="ᴛʀʏ ɪɴʟɪɴᴇ​", switch_inline_query_current_chat=""),
     ],
     [
-        InlineKeyboardButton(
-            text="Github own​", url="https://github.com/Wahyu213"
-        ),
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_CHAT}"),
-    ],
+        InlineKeyboardButton( text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_CHAT}"),
+     ],
     [
         InlineKeyboardButton(
             text="➗ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ ➗",
