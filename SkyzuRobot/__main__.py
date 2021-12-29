@@ -81,9 +81,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Halo{} !*
+*Hello {} !*
+✪ I'm an anime-theme management bot [✨](https://telegra.ph/file/f93d15cf7147cc8d36aa1.jpg)
 ────────────────────────
-✪I'm Anime Theme group management bot
+× *Uptime:* `{}`
 ✪ Maintained by @zenfrans 
 ────────────────────────
 ➤ Find the list of available commands with /help.
@@ -95,23 +96,20 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="Skyzu_"),
-        InlineKeyboardButton(text="ᴛʀʏ ɪɴʟɪɴᴇ​", switch_inline_query_current_chat=""),
+        InlineKeyboardButton(
+            text="Try inline!​​", switch_inline_query_current_chat=""
+        ),
     ],
     [
-        InlineKeyboardButton( text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_CHAT}"),
-     ],
-    [
         InlineKeyboardButton(
-            text="➗ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ ➗",
-            url=f"t.me/{dispatcher.bot.username}?startgroup=new",
-        ),
+            text="➗ Add Okaeri To Your Group ➗", url="t.me/OkaeriRobot?startgroup=new"),
     ],
 ]
 
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-EMI_IMG = "https://telegra.ph/file/56811b69cbcece20bbebf.jpg"
+EMI_IMG = "https://telegra.ph/file/f93d15cf7147cc8d36aa1.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @zenfrans \
