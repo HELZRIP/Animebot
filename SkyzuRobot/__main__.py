@@ -83,7 +83,7 @@ SKYZU_IMG = "https://telegra.ph/file/a6627fbd2827ff3be8f92.jpg"
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an anime-theme management bot [ㅤ](https://telegra.ph/file/a6627fbd2827ff3be8f92.jpg)
+✪ I'm an anime-theme management bot [ㅤ](https://telegra.ph/file/a6627fbd2827ff3be8f92.png)
 ────────────────────────
 × *Uptime:* `{}`
 ✪ Maintained by @zenfrans 
