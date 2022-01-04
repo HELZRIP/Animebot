@@ -98,10 +98,6 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="ᴛʀʏ ɪɴʟɪɴᴇ​", switch_inline_query_current_chat=""),
-    ],
-    [
-        InlineKeyboardButton(
             text="Add Okaeri to Your Group 👥",
             url="t.me/OkaeriRobot?startgroup=true",
         ),
