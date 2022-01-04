@@ -95,7 +95,10 @@ buttons = [
         InlineKeyboardButton(
             text="Updates 📢",
             url="https://t.me/nbzoning",
-        ),
+    ],
+    [
+        InlineKeyboardButton(
+            text="ᴛʀʏ ɪɴʟɪɴᴇ​", switch_inline_query_current_chat=""),
     ],
     [
         InlineKeyboardButton(
