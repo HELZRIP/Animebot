@@ -73,16 +73,16 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-ZELDRIS_IMG = "https://telegra.ph/file/6a7f2ee2e7c7219df88cd.jpg"
+ZELDRIS_IMG = "https://telegra.ph/file/96e3bdf71a6d1386eb655.jpg"
 
 PM_START_TEXT = """
 Hey there! my name is *{}*. 
-A modular group management bot with useful features. [ㅤ](https://telegra.ph/file/6a7f2ee2e7c7219df88cd.png)
+A modular group management bot with useful features. [ㅤ](https://telegra.ph/file/96e3bdf71a6d1386eb655.jpg)
 
 ◑ *Uptime:* `{}`
 
 Any issues or need help related to me?
-Join our official group [OkaeriUserbot](https://t.me/OkaeriUserbot).
+Join our official group [in here](https://t.me/Rsupportprobot).
 Click help button to know my commands!
 """
 
@@ -94,12 +94,12 @@ buttons = [
         ),
         InlineKeyboardButton(
             text="Updates 📢",
-            url="https://t.me/nbzoning",
+            url="https://t.me/akeno_support",
     ],
     [
         InlineKeyboardButton(
-            text="Add Okaeri to Your Group 👥",
-            url="t.me/OkaeriRobot?startgroup=true",
+            text="Add {} to Your Group 👥",
+            url="t.me/{}?startgroup=true",
         ),
     ],
 ]
@@ -109,11 +109,11 @@ Hello there! My name is *{dispatcher.bot.first_name}*.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
 *Main* commands available:
-× /start: Starts me, can be used to check i'm alive or no...
-× /help: PM's you this message.
-× /help <module name>: PM's you info about that module.
-× /settings: in PM: will send you your settings for all supported modules.
-- in a group: will redirect you to pm, with all that chat's settings.
+🔷 /start: Starts me, can be used to check i'm alive or no...
+🔷 /help: PM's you this message.
+🔷 /help <module name>: PM's you info about that module.
+🔷 /settings: in PM: will send you your settings for all supported modules.
+🔹 in a group: will redirect you to pm, with all that chat's settings.
 \nClick on the buttons below to get documentation about specific modules!"""
 
 IMPORTED = {}
@@ -245,11 +245,11 @@ def start(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="☎️ Support",
-                            url="https://t.me/OkaeriUserbot",
+                            url="https://t.me/Rsupportprobot",
                         ),
                         InlineKeyboardButton(
                             text="Updates 📡",
-                            url="https://t.me/nbzoning",
+                            url="https://t.me/akeno_update",
                         ),
                     ]
                 ]
