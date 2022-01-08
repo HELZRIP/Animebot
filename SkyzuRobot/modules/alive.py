@@ -24,7 +24,6 @@ async def awake(event):
     BUTTON = [
         [
             Button.url("ʜᴇʟᴘ​", "https://t.me/{}?start=help"),
-            Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/OkaeriUserbot"),
             Button.url("support", "https:/'t.me/Rsupportprobot"),
         ]
     ]
