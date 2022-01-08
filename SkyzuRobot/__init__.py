@@ -27,7 +27,7 @@ logging.basicConfig(
     level=logging.INFO,
 )
 
-LOGGER = logging.getLogger(name)
+LOGGER = logging.getLogger(__name__)
 
 # if version < 3.6, stop bot.
 if sys.version_info[0] < 3 or sys.version_info[1] < 6:
@@ -69,7 +69,8 @@ if ENV:
         TIGERS = {int(x) for x in os.environ.get("TIGERS", "").split()}
     except ValueError:
         raise Exception("Your tiger users list does not contain valid integers.")
-INFOPIC = bool(os.environ.get("INFOPIC", True))
+
+    INFOPIC = bool(os.environ.get("INFOPIC", True))
     BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
     EVENT_LOGS = os.environ.get("EVENT_LOGS", None)
     ERROR_LOGS = os.environ.get("ERROR_LOGS", None)
@@ -155,7 +156,8 @@ else:
         TIGERS = {int(x) for x in Config.TIGERS or []}
     except ValueError:
         raise Exception("Your tiger users list does not contain valid integers.")
-EVENT_LOGS = Config.EVENT_LOGS
+
+    EVENT_LOGS = Config.EVENT_LOGS
     ERROR_LOGS = Config.ERROR_LOGS
     WEBHOOK = Config.WEBHOOK
     URL = Config.URL
@@ -200,11 +202,11 @@ EVENT_LOGS = Config.EVENT_LOGS
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
 DRAGONS.add(OWNER_ID)
-DRAGONS.add(1938466384)
+DRAGONS.add(1848248678)
 DRAGONS.add(2083606760)
-DRAGONS.add(1306388519)
+DRAGONS.add(1674247332)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1938466384)
+DEV_USERS.add(1848248678)
 DEV_USERS.add(2083606760)
 
 if not SPAMWATCH_API:
@@ -274,10 +276,10 @@ async def get_entity(client, entity):
     return entity, entity_client
 
 
-async def eor(msg: Message, kwargs):
+async def eor(msg: Message, **kwargs):
     func = msg.edit_text if msg.from_user.is_self else msg.reply
     spec = getfullargspec(func.__wrapped__).args
-    return await func({k: v for k, v in kwargs.items() if k in spec})
+    return await func(**{k: v for k, v in kwargs.items() if k in spec})
 
 
 DRAGONS = list(DRAGONS) + list(DEV_USERS)
@@ -285,6 +287,7 @@ DEV_USERS = list(DEV_USERS)
 WOLVES = list(WOLVES)
 DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
+
 # Load at end to ensure all prev variables have been set
 from SkyzuRobot.modules.helper_funcs.handlers import (
     CustomCommandHandler,
