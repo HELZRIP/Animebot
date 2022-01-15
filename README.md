@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://telegra.ph/file/a6627fbd2827ff3be8f92.jpg">
-</p>
-
 <h4><p align="center"> OKAERI ROBOT </p></h4>
 
 <p align="center">Okaeri Robot is a modular bot running on python3 with anime theme and have a lot features.</p>
