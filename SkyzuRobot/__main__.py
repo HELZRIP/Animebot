@@ -479,13 +479,13 @@ def Skyzu_about_callback(update, context):
 
     elif query.data == "Skyzu_credit":
         query.message.edit_text(
-            text=f"<b>๏ Credis for rey</b>\n"
+            text=f"<b>๏ Credis for Zen</b>\n"
             f"\nHere Developers Making The OkaeriRobot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Dream Garden (rey)", url="t.me/helzrip"),
+                        InlineKeyboardButton(text="Zen", url="t.me/zenfrans"),
                     ],
                     [
                         InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ​", callback_data="Skyzu_"),
