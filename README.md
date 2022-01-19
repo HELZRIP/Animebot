@@ -21,7 +21,8 @@
 -[Skyzu](https://github.com/Skyzu/SkyzuRobot)
 
 ## Repo build by 
--[Zen](https://github.com/wahyu213)
--[Rey](https://github.com/HELZRIO)
+- [Zen](https://github.com/wahyu213)
+
+- [Rey](https://github.com/HELZRIO)
 
 
