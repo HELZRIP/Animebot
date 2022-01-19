@@ -1,15 +1,15 @@
-<h4><p align="center"> OKAERI ROBOT </p></h4>
+<h4><p align="center"> mybotrepo </p></h4>
 
-<p align="center">Okaeri Robot is a modular bot running on python3 with anime theme and have a lot features.</p>
+<p align="center">mybotrepo is a modular bot running on python3 with anime theme and have a lot features.</p>
 
 <p align="center">
-<a href="https://t.me/OkaeriRobot"> <img src="https://img.shields.io/badge/Okaeri-Robot-blue?&logo=telegram" alt="Okaeri on Telegram" /> </a><br>
+<a href="https://t.me/animeeidbot"> <img src="https://img.shields.io/badge/animeeidbot-blue?&logo=telegram" alt="myrepobot on Telegram" /> </a><br>
 <a href="https://python-telegram-bot.org"> <img src="https://img.shields.io/badge/PTB-13.8.1-white?&style=flat-round&logo=github" alt="Python Telegram Bot" /> </a>
 <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a><br>
 <a href="https://docs.telethon.dev"> <img src="https://img.shields.io/badge/Telethon-1.23.0-red?&style=flat-round&logo=github" alt="Telethon" /> </a>
 <a href="https://docs.python.org"> <img src="https://img.shields.io/badge/Python-3.9.7-purple?&style=flat-round&logo=python" alt="Python" /> </a><br>
-<a href="https://GitHub.com/Wahyu213/OkaeriRobot"> <img src="https://img.shields.io/badge/Maintained-Yes-yellow.svg" alt="Maintenance" /> </a><br>
-<a href="https://github.com/Wahyu213/OkaeriRobot/blob/main/LICENSE"> <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License" /> </a>
+<a href="https://GitHub.com/HELZRIP/myrepobot"> <img src="https://img.shields.io/badge/Maintained-Yes-yellow.svg" alt="Maintenance" /> </a><br>
+<a href="https://github.com/HELZRIP/myrepobot/blob/main/LICENSE"> <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License" /> </a>
 <a href="https://makeapullrequest.com"> <img src="https://img.shields.io/badge/PRs-Welcome-blue.svg?style=flat-round" alt="PRs" /> </a>
 </p>
 
@@ -19,5 +19,9 @@
 
 ## Credits💫
 -[Skyzu](https://github.com/Skyzu/SkyzuRobot)
+
+## Repo build by 
+-[Zen](https://github.com/wahyu213)
+-[Rey](https://github.com/HELZRIO)
 
 
