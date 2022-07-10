@@ -98,9 +98,7 @@ buttons = [
         InlineKeyboardButton(text="ᴛʀʏ ɪɴʟɪɴᴇ​", switch_inline_query_current_chat=""),
     ],
     [
-        InlineKeyboardButton(
-            text="admin repo", url="https://t.me/helzrip"
-        ),
+        InlineKeyboardButton(text="admin repo", url="https://t.me/helzrip"),
         InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
